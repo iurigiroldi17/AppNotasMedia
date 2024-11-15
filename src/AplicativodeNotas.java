@@ -45,7 +45,7 @@ public class AplicativodeNotas extends JFrame {
             } else {
                 JOptionPane.showMessageDialog(this, "Nota deve ser entre 0 e 10", "Erro", JOptionPane.ERROR_MESSAGE);
             }
-        } catch (NumberFormatException ex) {
+        }  catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Nota inválida", "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
